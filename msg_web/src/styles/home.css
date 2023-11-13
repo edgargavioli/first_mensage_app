@@ -1,0 +1,78 @@
+:root {
+    overflow: scroll;
+}
+
+#home img {
+    width: 5%;
+}
+
+#home button img {
+    width: 70%;
+}
+
+#header {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contains_msg{
+    height: 50vh ;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 10px 0px 10px 10px;
+}
+
+#mensage_is_here {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.mensagens {
+    font-weight: bold;
+    border-radius: 10px 10px 10px 0px;
+    margin-top: 0%;
+    width: 100%;
+    min-height: 50px;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.me.mensagens p {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.mensagens p {
+    margin-left: 10px;
+}
+
+#home form {
+    display: flex;
+    align-items: start;
+}
+
+#home form input {
+    width: 60%;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#buttonForm {
+    width: 10%;
+    height: auto;
+    color: whitesmoke;
+}
